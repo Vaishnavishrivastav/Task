@@ -17,7 +17,8 @@ while True:
  1. addition
  2. subtraction
  3. multiplication
- 4. divide"""))
+ 4. divide
+ """))
  if x==1:
     print("the addition of numbers is:", add())
  elif x==2:
