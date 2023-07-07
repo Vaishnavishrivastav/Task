@@ -1,0 +1,16 @@
+#To Do List
+#show options to user to select with
+ def Options():
+    print("1. Add Task")
+    print("2. View Tasks")
+    print("3. Task Completed")
+    print("4. Exit")
+#Adding task
+def add_task(task):
+    task=input("Enter the task to your To-Do List")
+    task.append(task)
+#View Task
+def view_task():
+    print(task)
+    
+    
