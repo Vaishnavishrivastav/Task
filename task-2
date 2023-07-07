@@ -1,0 +1,32 @@
+a=int(input("Enter the first number"))
+b=int(input("Enter the second number"))
+def add():
+    return a+b
+
+def sub:
+    return a-b
+
+def mul:
+    return a*b
+
+def div:
+    return a/b
+
+while g=="y":
+ print("Enter the operation which you want to perform\
+ 1: addition\
+ 2: subtraction\
+ 3: multiplication\
+ 4: divide")
+ x=input("1/2/3/4")
+ if x==1:
+     add()
+ elif x==2:
+     sub()
+ elif x==3:
+     mul()
+ elif x==4:
+     div()
+ else:
+     print("Error only enter number between 1 and 4")
+g=input("Again want to calculate: y/n")
