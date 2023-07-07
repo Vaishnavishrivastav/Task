@@ -19,13 +19,13 @@ while True:
  3. multiplication
  4. divide")
  if x==1:
-    print(the sum of numbers is: add())
+    print("the addition of numbers is:", add())
  elif x==2:
-    print(the sum of numbers is: sub())
+    print("the subtraction of numbers is:", sub())
  elif x==3:
-    print(the sum of numbers is: mul())
+    print("the multiplication of numbers is:", mul())
  elif x==4:
-    print(the sum of numbers is: div())
+    print("the division of numbers is:", div())
  else:
      print("Error only enter number between 1 and 4")
  g=input("Again want to calculate: y/n- ")
