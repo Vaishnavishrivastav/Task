@@ -9,8 +9,9 @@
 def add_task(task):
     task=input("Enter the task to your To-Do List")
     task.append(task)
+    print("Task added")
 #View Task
-def view_task():
+def view_task(task):
     print(task)
     
     
